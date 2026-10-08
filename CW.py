@@ -2,13 +2,15 @@ class car:
     name = ''
     color = ''
 
-    def set_values(self,n,c):
-        self.name = n
-        self.color = c
+    def __init__(self, name, color, model):
+        self.name = name
+        self.color = color
+        self.model = model
 
-        #method
     def intro(self):
-        print(f'Name: {self.name}\n Color: {self.color}\nModel: {self.model}')
+        print(f'Name: {self.name}')
+        print(f'Color: {self.color}')
+        print(f'Model: {self.model}')
 
 c1 = car()
 c1.set_values('toyota','red')
