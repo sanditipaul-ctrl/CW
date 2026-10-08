@@ -1,12 +1,10 @@
 class car:
     name = ''
     color = ''
-    model = ''
 
-    def set_values(self,n,c,m):
+    def set_values(self,n,c):
         self.name = n
         self.color = c
-        self.model = m
 
         #method
     def intro(self):
