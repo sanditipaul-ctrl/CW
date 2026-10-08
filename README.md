@@ -1,1 +1,1 @@
-Student Management System
+Single Inheritance
